@@ -30,7 +30,7 @@ Once steps done from [privateaser](https://github.com/92bondstreet/privateaser) 
 
 ### 🏃‍♀️ Steps to do
 
-* Help users to understand your page event they don’t know anything about your site
+* Help users to understand your page even if they don’t know anything about your site
 * Help users to compute the invoices in a clear and efficient manner.
 * Help users to be clear about which action to take in a easy manner.
 

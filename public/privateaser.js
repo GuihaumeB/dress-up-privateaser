@@ -69,7 +69,7 @@ const PRIVATEASER = (() => {
    * @param  {Object} bar
    * @param  {String} time
    * @param  {String} time
-   * @return {String} price
+   * @return {number} price
    */
   const bookingPrice = (bar, time, persons) => {
     const percent = discount(persons);
@@ -92,7 +92,7 @@ const PRIVATEASER = (() => {
     const commission = bookingCommission(price, persons);
     const deductibleOption = DEDUCTIBLE_PER_PERSON * persons * +option;
 
-    var actors = [{
+    let actors = [{
       'who': 'booker',
       'type': 'debit',
       'amount': price + deductibleOption
