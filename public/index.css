@@ -38,6 +38,10 @@ body {
     border: none;
 }
 
+img{
+    margin: 30px auto;
+}
+
 .option {
     color: floralwhite;
     margin-top: -30px;
@@ -47,12 +51,17 @@ body {
 }
 
 .btn {
-    background: #ff2712;
-    margin-top: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #57a889;
     border: none;
-    font-family: "Comic Sans MS", Alte, Helvetica, sans-serif !important;
-    font-size: 15px;
-    color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 50px auto 20px 200px;
 }
 
 .disp {
